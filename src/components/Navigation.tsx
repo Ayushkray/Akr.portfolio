@@ -32,7 +32,8 @@ export const Navigation = () => {
             <div className="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-white font-bold text-sm overflow-hidden ring-2 ring-primary/20 transition-all group-hover:ring-primary/40">
               {!imgError ? (
                 <img
-                  src={githubAvatar}
+                  // src={githubAvatar}
+                  src={'/logo.jpeg'}
                   alt="Ayush Kumar Avatar"
                   className="w-full h-full object-cover"
                   onError={() => setImgError(true)}
